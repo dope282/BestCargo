@@ -1,0 +1,37 @@
+.menuItem {
+    margin: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.menuItem a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    height: 100%;
+    padding: 20px 5px;
+}
+.menuItem a:hover, .menuItem a:active, .menuItem a.active{
+    background-color: #35d3ff;
+}
+@media (min-width: 400px) {
+    .menuItem {
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+    }
+    .menuItem a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        height: 100%;
+        padding: 20px 5px;
+        border-bottom: 3px solid transparent;
+    }
+    .menuItem a:hover, .menuItem a:active, .menuItem a.active{
+        background-color: gray;
+        border-bottom: 3px solid black;
+    }
+}

@@ -1,0 +1,29 @@
+.logo {
+    height: 70px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex: 1;
+    box-sizing: border-box;
+}
+.logo div{
+    color: black;
+}
+.logo div:hover {
+    color: #01C0F7;
+    cursor: pointer;
+}
+.logo img {
+    height: 100%;
+}
+.logo img:hover {
+    cursor: pointer;
+}
+@media (max-width: 400px) {
+    .hideOnMobile {
+        display: none;
+    }
+    .logo {
+        display: block;
+    }
+}

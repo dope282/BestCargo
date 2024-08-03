@@ -1,0 +1,14 @@
+.menu {
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100%;
+}
+@media (min-width: 400px) {
+    .menu {
+        flex-flow: row;
+    }
+}

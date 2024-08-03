@@ -1,0 +1,25 @@
+.sideBar {
+    width: 200px;
+    background-color: #01C0F7;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 200;
+    padding: 20px 15px;
+    transition: transform 0.3s ease-out ;
+}
+.logo img{
+    border-radius: 10px;
+}
+@media (min-width: 400px) {
+    .sideBar {
+        display: none;
+    }
+}
+.Open {
+    transform: translateX(0);
+}
+.Close {
+    transform: translateX(200%);
+}
