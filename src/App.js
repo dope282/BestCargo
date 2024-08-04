@@ -3,6 +3,8 @@ import './App.css';
 import TrackCodeSection from './components/trackCodeField';
 import Header from './components/header';
 import SideBar from './components/header/toolbar/sideBarMenu';
+import Login from './components/LoginSignupPage';
+import HomePage from './components/HomePage';
 class App extends Component {
   state = {
     showSideBar: false
@@ -22,7 +24,9 @@ class App extends Component {
       showSideBar={this.state.showSideBar}
       toggleSideBar={this.toggleSideBar}/>
       <main className='Content'>
-        <TrackCodeSection/>
+        {/* <HomePage/> */}
+        {/* <TrackCodeSection/> */}
+        <Login/>
       </main>
     </div>
     )

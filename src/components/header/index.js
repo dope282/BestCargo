@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import style from "./style.module.css";
-import Toolbar from "./toolbar";
+import Menu from "./toolbar/menu";
 import Logo from "./logo";
 import NavMenu from "./navMenu";
 const Header = props => (   
             <div className={style.HeaderContainer}>
                 <Logo show/>
-                <nav className={style.hideOnMobile}> <Toolbar/>  </nav>
+                <nav className={style.hideOnMobile}> <Menu/>  </nav>
                 <NavMenu toggleSideBar={props.toggleSideBar}/>
             </div>
 );

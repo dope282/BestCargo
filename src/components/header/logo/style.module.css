@@ -9,21 +9,29 @@
 .logo div{
     color: black;
 }
-.logo div:hover {
+.logo a:hover {
     color: #01C0F7;
     cursor: pointer;
 }
 .logo img {
     height: 100%;
+    padding-right: 10px;
 }
 .logo img:hover {
     cursor: pointer;
 }
-@media (max-width: 400px) {
-    .hideOnMobile {
-        display: none;
-    }
+.hideOnMobile {
+    font-size: 13px;
+}
+@media (max-width: 600px) {
     .logo {
-        display: block;
+        padding: 0;
+        height: 60px;
+        margin-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .logo img{
+        padding: 10px;
     }
 }

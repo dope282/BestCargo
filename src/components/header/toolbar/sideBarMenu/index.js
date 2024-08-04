@@ -13,8 +13,8 @@ const SideBar = props => {
 
     return (
     <div>
-        <Shadow show={props.showSideBar}/>
-        <div className={ classes.join(" ")}>
+        <Shadow show={props.showSideBar} onClick={props.toggleSideBar}/>
+        <div onClick={props.toggleSideBar} className={ classes.join(" ")}>
             <div className={style.logo}>
                 <Logo show/>
             </div>

@@ -6,7 +6,9 @@ const Logo = props => {
         props.show ?
             <div className={style.logo}>
                 <img src={LogoImg}/>
-                <div className={style.hideOnMobile}>Best Cargo</div>
+                <div className={style.hideOnMobile}>
+                    <a href="/">BEST CARGO</a>
+                </div>
             </div> : 
             <div className={style.logo}>
                 <img src={LogoImg}/>

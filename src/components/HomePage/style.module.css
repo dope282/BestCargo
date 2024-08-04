@@ -1,0 +1,10 @@
+.getStart {
+    padding: 10px 60px;
+    color: black;
+    background-color: white;
+    border: 1px solid #01C0F7;
+    border-radius: 60px;
+}
+.getStart:hover {
+    cursor: pointer;
+}

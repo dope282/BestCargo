@@ -22,3 +22,11 @@
 .third {
     width: 20px;
 }
+.navMenu:hover {
+    cursor: pointer;
+}
+@media (min-width: 600px){
+    .navMenu {
+        display: none;
+    }
+}
