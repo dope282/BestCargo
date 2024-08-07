@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import style from "./style.module.css";
 import Menu from "./toolbar/menu";
 import Logo from "./logo";

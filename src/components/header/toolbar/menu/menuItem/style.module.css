@@ -16,6 +16,7 @@
     background-color: #d3f8ff;
     border-left: 1px solid #01C0F7;
 }
+
 @media (min-width: 600px) {
     .menuItem {
         margin: 0;
